@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".homeScreen">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_2"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="deeps"
+        android:textColor="@color/black"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B E E F C A F E E"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <RelativeLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       android:background="@drawable/card_bg"
+        >
+        <TextView
+            android:id="@+id/wellcom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wellcome"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginVertical="40dp"/>
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor consectetur      adpisicing elit,sed do tempor incididunt ut labore et"
+          android:layout_below="@+id/wellcom"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+          />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text2"
+
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/signin"
+                android:layout_width="170dp"
+                android:backgroundTint="@color/black"
+                android:background="@drawable/bt_bg"
+                android:layout_marginHorizontal="30dp"
+                android:layout_height="70dp"
+               android:text="Sign in"/>
+            <Button
+                android:id="@+id/signup"
+                android:layout_width="170dp"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/white"
+                android:background="@drawable/bt_bg"
+                android:textStyle="bold"
+                android:layout_height="70dp"
+               android:text="Sign in"/>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
