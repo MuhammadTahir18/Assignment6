@@ -12,5 +12,8 @@ class signUp : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
+
+
+
     }
 }
